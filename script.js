@@ -1,10 +1,9 @@
 const STORAGE_KEY = "calendar_habit_tracker_2026"
 
 const defaultHabits = [
-  "4:00 - Wake up",
-  "4:00 - 4:30 Meditation",
-  "4:30 - 5:30 Image Generation",
-  "5:30 - 9:00 Work",
+  "4:30 - Wake up",
+  "4:30 - 5 Meditation",
+  "5 - 9:00 Work",
   "9:00 - 12:00 Coding",
   "12:00 - 1:00 Eating",
   "1:00 - 2:00 Coding",
