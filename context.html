@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Coding Contests Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      color: #38bdf8;
+    }
+    header p {
+      color: #cbd5f5;
+      margin-top: 8px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+    .card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      color: #22d3ee;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #d1d5db;
+      margin-bottom: 15px;
+    }
+    .card a {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .card a:hover {
+      background: #0ea5e9;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #94a3b8;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Live Coding Contests Hub</h1>
+    <p>All active coding contest platforms in one place</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>LeetCode</h2>
+      <p>Weekly & Biweekly coding contests with interview-level problems.</p>
+      <a href="https://leetcode.com/contest/" target="_blank">View Contests</a>
+    </div>
+
+    <div class="card">
+      <h2>CodeChef</h2>
+      <p>Starters, Long Challenges, and hiring contests.</p>
+      <a href="https://www.codechef.com/contests" target="_blank">View Contests</a>
+    </div>
+
+    <div class="card">
+      <h2>Codeforces</h2>
+      <p>Competitive programming contests with global rankings.</p>
+      <a href="https://codeforces.com/contests" target="_blank">View Contests</a>
+    </div>
+
+    <div class="card">
+      <h2>HackerEarth</h2>
+      <p>Company hiring challenges & real-time coding tests.</p>
+      <a href="https://www.hackerearth.com/challenges/" target="_blank">View Challenges</a>
+    </div>
+
+    <div class="card">
+      <h2>HackerRank</h2>
+      <p>Timed coding contests used in campus & off-campus hiring.</p>
+      <a href="https://www.hackerrank.com/contests" target="_blank">View Contests</a>
+    </div>
+
+    <div class="card">
+      <h2>Unstop</h2>
+      <p>Hiring competitions, hackathons, and coding assessments.</p>
+      <a href="https://unstop.com" target="_blank">Explore</a>
+    </div>
+
+    <div class="card">
+      <h2>CodingContests.io</h2>
+      <p>Aggregated live & upcoming contests from all platforms.</p>
+      <a href="https://codingcontests.io" target="_blank">Open Calendar</a>
+    </div>
+
+    <div class="card">
+      <h2>CLIST</h2>
+      <p>Advanced contest filters with timezone support.</p>
+      <a href="https://clist.by" target="_blank">Browse Contests</a>
+    </div>
+
+  </section>
+
+  <footer>
+    Built for placements & daily practice | © 2026
+  </footer>
+
+</body>
+</html>
